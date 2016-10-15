@@ -1,0 +1,11 @@
+int novoSalario(int salario, int taxa){
+   return taxa * salario;
+}
+void main(){
+   int a = 100;
+   int tax = 3;
+   int b = 5;
+   int resposta;
+   resposta = novoSalario(a, tax);
+   printf("Resposta = %d", resposta);
+}
